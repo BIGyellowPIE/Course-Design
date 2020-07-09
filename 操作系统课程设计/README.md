@@ -1,6 +1,6 @@
 操作系统课程设计——Shell编程（用c编写一个Linux的外壳Shell）
 ====
-# 实现功能：
+## 实现功能：
  1. 编写一个C语言程序作为Linux内核的shell命令行解释程序，所执行的结果需和系统命令行方式保持一致。
  2. 增加后台运行功能。即用户可以使用”&”作为一个命令结束，以启动下一个命令。
  3. 增加I/O重定向功能。即用户可以使用”<”和”>”符号改变程序/文件的输入和输出。
@@ -11,16 +11,16 @@
  8. 增加查阅历史记录的功能。可以查看历史命令。
  9.  支持目录检索功能。即文件不存在，继续打印提示符。
  10. 支持一定的错误输入处理。例如：多于空格的出现，输入命令不存在，空输入等等。
-# 依赖库安装：
+## 依赖库安装：
 ```Bash
  sudo apt-get install libreadline6-dev
 ```
 ```Bash
  sudo apt-get install libncurses5-dev
 ```
-# 编译方式：
+## 编译方式：
 ```Bash
  gcc MyShell.c -o MyShell -lreadline -lncurses
 ```
-# 详细描述的博客地址：
+## 详细描述的博客地址：
  https://blog.csdn.net/qq_43326014/article/details/107215174
